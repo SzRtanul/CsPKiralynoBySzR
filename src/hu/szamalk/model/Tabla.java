@@ -48,7 +48,7 @@ public class Tabla {
             else {
                 boolean both = true;
                 for (int j = 0; j < T.length && both; j++) {
-                    
+                    both = isUresSor(j);
                 }
             }
         }
@@ -68,5 +68,17 @@ public class Tabla {
             tabla += "\n";
         }
         return tabla;
+    }
+    
+    public boolean isUresOszlop(int oszlop){
+        return false;
+    }
+    
+    public boolean isUresSor(int sor){
+        int i;
+        for (i = 0; i < T[sor].length; i++) {
+            i = T[sor][i] == this.uresCella ? i : T[sor].length;
+        }
+        return (i^T.length) == 0;
     }
 }
