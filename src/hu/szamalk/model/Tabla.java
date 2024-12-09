@@ -45,6 +45,12 @@ public class Tabla {
                 T[helyY][helyX] = 'K';
             }
             else if(helyezett && !mem) i--;
+            else {
+                boolean both = true;
+                for (int j = 0; j < T.length && both; j++) {
+                    
+                }
+            }
         }
         return (i ^ N) == 0;
     }
