@@ -9,5 +9,6 @@ package hu.szamalk.model;
  * @author szabo.roland
  */
 public class Tabla {
+    private char[][] T;
     
 }
