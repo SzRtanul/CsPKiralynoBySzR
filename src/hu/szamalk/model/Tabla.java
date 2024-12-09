@@ -81,4 +81,6 @@ public class Tabla {
         }
         return (i^T.length) == 0;
     }
+    
+    // Absztrakr
 }
