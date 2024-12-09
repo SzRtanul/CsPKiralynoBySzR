@@ -16,5 +16,7 @@ public class CsPf1BySzR {
         Tabla tabla = new Tabla('*');
         
         tabla.Megjelenit();
+        tabla.doElhelyez(8);
+        tabla.Megjelenit();
     }
 }
