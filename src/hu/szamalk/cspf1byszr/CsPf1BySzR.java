@@ -4,6 +4,7 @@
 
 package hu.szamalk.cspf1byszr;
 
+import hu.szamalk.JatekModel.LogikaiJatek;
 import hu.szamalk.model.Tabla;
 
 /**
@@ -18,5 +19,8 @@ public class CsPf1BySzR {
         tabla.Megjelenit();
         tabla.doElhelyez(8);
         tabla.Megjelenit();
+        
+        LogikaiJatek j1 = new LogikaiJatek();
+        LogikaiJatek j2 = new LogikaiJatek(10);
     }
 }
