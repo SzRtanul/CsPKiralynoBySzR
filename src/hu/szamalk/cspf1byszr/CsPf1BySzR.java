@@ -4,6 +4,8 @@
 
 package hu.szamalk.cspf1byszr;
 
+import hu.szamalk.model.Tabla;
+
 /**
  *
  * @author szabo.roland
@@ -11,6 +13,8 @@ package hu.szamalk.cspf1byszr;
 public class CsPf1BySzR {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Tabla tabla = new Tabla('*');
+        
+        tabla.Megjelenit();
     }
 }

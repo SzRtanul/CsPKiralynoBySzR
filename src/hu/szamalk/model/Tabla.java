@@ -35,5 +35,18 @@ public class Tabla {
         return false;
     }
     
+    public void Megjelenit(){
+        System.out.println(getTabla());
+    }
     
+    public String getTabla(){
+        String tabla = "";
+        for (int i = 0; i < T.length; i++) {
+            for (int j = 0; j < T[i].length; j++) {
+                tabla += T[i][j] + " ";
+            }
+            tabla += "\n";
+        }
+        return tabla;
+    }
 }
